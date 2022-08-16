@@ -105,19 +105,28 @@
         <legend>An interesting fact about you!</legend>
 
         <label class="label">
-          Do you love cats?
-          <input
-            class="form-field"
-            type="radio"
+          Do you love cats? 
+
+          <label>
+            <input 
+            type="radio" 
             name="cats"
+            value="yes"
+            required
           >
           Yes
-          <input
-            class="form-field"
-            type="radio"
+          </label>
+
+          <label>
+            <input 
+            type="radio" 
             name="cats"
+            value="no"
+            required
           >
           No
+          </label>
+
         </label>
 
         <label class="label">
@@ -145,7 +154,7 @@
             name="cars"
             multiple
           >
-            <!-- <option value="" selected disabled></option> -->
+          
             <option value="BMW">BMW</option>
             <option value="Audi">Audi</option>
             <option value="Lada">Lada</option>
